@@ -717,7 +717,7 @@ h3 {
 }
 
 .skill-box {
-    width: 75%;
+    width: 100%;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -1318,6 +1318,17 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+
+    .timeline-event {
+        width: 100%;
+    }
+
+    .about-border {
+        width: 662px;
+        height: 810px;
+        top: 0px;
+        left: 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1341,7 +1352,10 @@ fieldset {
     }
 
     .about-border {
-        width: 265px;
+        width: 205px;
+        height: 290px;
+        top: 25px;
+        left: 95px;
     }
 
     .portfolio .categories-grid .categories ul li {
@@ -1389,7 +1403,31 @@ fieldset {
         top: 9px;
     }
 
+    .banner_text {
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
 
+    #home {
+        background: url(../img/banner_media3.png) no-repeat center;
+    }
+
+    .banner_text p {
+        font-size: 55px;
+        line-height: 70px;
+        z-index: 50;
+        color: white;
+    }
+
+    .banner_span {
+        color: white;
+        background: none;
+    }
 }
 
 @media (max-width: 420px) {
